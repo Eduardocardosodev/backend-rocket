@@ -7,7 +7,7 @@
     "dev": "nodemon src/insfrastructure/api/server.ts",
     "tsc": "tsc",
     "test": "npm run tsc -- --noEmit && jest --detectOpenHandles",
-    "build": "tsup src/infrastructure/api/server.ts",
+    "build": "tsup src/insfrastructure/api/server.ts",
     "start": "node dist/server.js"
   },
   "keywords": [],
@@ -34,6 +34,7 @@
     "@types/supertest": "^6.0.2",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
+    "tsup": "^8.1.0",
     "typescript": "^5.5.3"
   }
 }
